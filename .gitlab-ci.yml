@@ -5,7 +5,7 @@ build:
   stage: build
   rules:
     - when:
-        never
+        always
   image: rikorose/gcc-cmake:gcc-9
   script:
     - git submodule init
